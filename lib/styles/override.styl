@@ -1,0 +1,155 @@
+html, body
+  min-height 100vh
+
+.theme-container
+  position relative
+  max-width var(--container-width)
+  margin 0 auto
+
+  h1, h2, h3, h4, h5
+    border none
+    font-family var(--font-family-quicksand)
+
+  table
+    display inline-table
+    width 100%
+    font-size .9em
+    border-radius .8em
+    background-color #fdfdfd
+    overflow hidden
+    th, td, tr
+      border none
+    th
+      text-align left
+      background-color #f0f0f0
+    th, td
+      padding 1em
+
+  blockquote
+    position relative
+    padding 0.6rem 0 0.6rem 1rem
+    font-size .9rem
+    border-radius .5rem
+    border none
+    background-color var(--c-bg-light)
+    &::after
+      content " "
+      position absolute
+      top 15%
+      left -.15rem
+      width .4rem
+      height 70%
+      border-radius .2rem
+      background var(--c-brand)
+
+  .navbar
+    max-width var(--container-width)
+    margin 0 auto
+    border none
+    .logo
+      border-radius 50%
+    .site-name
+      font-family var(--font-family-quicksand)
+    .search-box input
+      background-size .9rem
+    .navbar-links-item
+      position relative
+      font-family var(--font-family-quicksand)
+      a, button
+        font-weight 700
+    .navbar-links-item > a:not(.external), .navbar-links-item > a:not(.external)
+      border none
+      &::after
+        content ""
+        position absolute
+        left 10%
+        bottom -.3rem
+        width 80%
+        height .3rem
+        border-radius .3rem
+        background-color transparent
+    .navbar-links-item > a:not(.external):hover, .navbar-links-item > a:not(.external).router-link-active
+      &::after
+        background-color var(--c-text-accent)
+    .dropdown-wrapper .nav-dropdown .dropdown-item a.router-link-active::after
+      border none
+      width 6px
+      height 6px
+      border-radius 6px
+      background-color var(--c-text-accent)
+    .arrow.down 
+      border-left 6px solid transparent
+      border-right 6px solid transparent
+      border-top 6px solid var(--c-bg-arrow)
+      border-radius 6px
+  .sidebar
+    left calc(50% - 640px)
+    height 100vh
+    padding-bottom 3em
+    border none
+    &::-webkit-scrollbar
+      width 2px
+    a.sidebar-item
+      position relative
+      font-family var(--font-family-quicksand)
+      font-weight 700
+      border none
+      transition all .3s
+      &::after
+        content ""
+        position absolute
+        left 0
+        top 10%
+        width .3rem
+        height 80%
+        border-radius .3rem
+        background-color transparent
+      &.active::after
+        background-color var(--c-text-accent)
+    .sidebar-sub-items
+      a.sidebar-item.active
+        &::after
+          background-color transparent
+    .dropdown-title
+      pointer-events auto !important
+
+  .custom-container
+    position relative
+    border-radius var(--border-radius)
+    border none
+    &::after
+      content ''
+      position absolute
+      top 0.5em
+      left 0.5em
+      width var(--border-radius)
+      height var(--border-radius)
+      border-radius var(--border-radius)
+    &.tip::after
+      background-color var(--c-tip)
+    &.warning::after
+      background-color var(--c-warning)
+    &.danger::after
+      background-color var(--c-danger)
+
+  div[class*="language-"]
+    margin-bottom 2em
+    border-radius var(--border-radius)
+    pre code
+      font-size .9rem
+      font-weight 600
+  .code-group__nav
+    border-top-left-radius var(--border-radius)
+    border-top-right-radius var(--border-radius)
+
+  .DocSearch-Button
+    .DocSearch-Search-Icon
+        width 10px
+
+html.dark
+  table
+    background-color rgb(1, 22, 39)
+    th
+      background-color #273044
+    tr:nth-child(2n)
+      background-color #0f2435

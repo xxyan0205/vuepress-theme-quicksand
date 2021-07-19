@@ -1,0 +1,42 @@
+.home
+  .hero
+    position relative
+    height 24rem
+    margin-top 2.5rem
+    padding-left calc(40% + 2rem)
+    box-sizing border-box
+    display flex
+    flex-direction column
+    justify-content center
+    img
+      position absolute
+      left 0
+      top 50%
+      width 40%
+      max-height fit-content
+      margin 0
+      transform translateY(-50%)
+    h1, h2, h3, p
+      margin 1rem 0 !important
+      text-align left
+    .action-button
+      padding 0.6rem 1.8rem
+      border-radius var(--border-radius)
+      transition background-color 0.3s ease
+  .theme-default-content
+    h1, h2, h3
+      position relative
+      padding 1rem 0
+      text-align center
+      &::after
+        content ""
+        position absolute
+        left 50%
+        bottom 0  
+        width 3rem
+        height .3rem
+        background-color var(--c-brand)
+        border-radius .3rem
+        transform translateX(-50%)
+
+    
