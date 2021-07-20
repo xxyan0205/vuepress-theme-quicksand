@@ -10,6 +10,10 @@ export default defineUserConfig<DefaultThemeOptions>({
   bundler: '@vuepress/vite',
   // bundler: '@vuepress/webpack',
 
+  head: [
+    ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover' }]
+  ],
+
   locales: {
     '/': {
       lang: 'en-US',
@@ -29,6 +33,8 @@ export default defineUserConfig<DefaultThemeOptions>({
     repo: 'xxyan0205/vuepress-theme-quicksand',
 
     docsDir: 'example',
+
+    codeTheme: 'light',
 
     locales: {
       /**

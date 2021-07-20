@@ -38,9 +38,9 @@ export default {
   position: relative;
   left: 50%;
   display: inline-block;
-  height: 2rem;
-  line-height: 2rem;
-  padding: 0 1.2rem;
+  /* height: 2rem;
+  line-height: 2rem; */
+  padding: 0.5rem 1.2rem;
   font-size: .8rem;
   font-weight: 400;
   color: #666;

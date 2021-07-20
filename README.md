@@ -42,6 +42,8 @@ module.exports = {
 
 #### Code theme
 
+##### Code block settings
+
 * dark (default)
 
 ````md
@@ -57,6 +59,16 @@ console.log('dark theme')
 console.log('light theme')
 ```
 ````
+
+##### Global settings
+
+```js
+module.exports = {
+  themeConfig: {
+    codeTheme: 'light',
+  }
+}
+```
 
 #### Style variables
 
