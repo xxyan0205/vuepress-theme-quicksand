@@ -132,15 +132,22 @@ html, body
     &.danger::after
       background-color var(--c-danger)
 
+  .theme-default-content pre code, .theme-default-content pre[class*=language-] code
+    color var(--code-text-color)
+
   div[class*="language-"]
     margin-bottom 2em
     border-radius var(--border-radius)
     pre code
       font-size .9rem
       font-weight 600
-  .code-group__nav
-    border-top-left-radius var(--border-radius)
-    border-top-right-radius var(--border-radius)
+  .code-group
+    .code-group__nav
+      border-top-left-radius var(--border-radius)
+      border-top-right-radius var(--border-radius)
+    div[class*="language-"]
+      border-top-left-radius 0
+      border-top-right-radius 0
 
   .DocSearch-Button
     .DocSearch-Search-Icon

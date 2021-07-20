@@ -1,18 +1,26 @@
 :root, html.dark {
   --border-radius: 12px;
   --font-family-quicksand: Quicksand, var(--font-family);
-  --font-family-quicksand-src: url(https://fonts.gstatic.com/s/quicksand/v22/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkP8o58m-xDwxUD2GF9Zc.woff) format('woff');
   --font-family-code: Source Code Pro, var(--font-family)
-  --font-family-code-src: url(https://fonts.gstatic.com/s/sourcecodepro/v14/HI_SiYsKILxRpg3hIP6sJ7fM7PqlPevWnsUnxg.woff2);
   --container-width: 1280px;
-  --c-brand-code: #00CCFF;
   --c-brand: #2f86f6;
   --c-brand-light: #2f86f6;
   --c-tip: var(--c-brand);
   --navbar-padding-h: 0;
-  --code-bg-color: #2f495e;
-  --code-hl-bg-color: #04233e;
-  --code-ln-color: #ccc;
+  .theme-code-dark {
+    --code-text-color: #f0f0f0;
+    --code-brand-color: #00CCFF;
+    --code-bg-color: #2f495e;
+    --code-hl-bg-color: #04233e;
+    --code-ln-color: #ccc;
+  }
+  .theme-code-light {
+    --code-text-color: #3a385d;
+    --code-brand-color: var(--c-brand);
+    --code-bg-color: #f6f6f6;
+    --code-hl-bg-color: #e7e6e6;
+    --code-ln-color: #999;
+  }
   .search-box {
     --search-bg-color: #edf2f7;
   }
