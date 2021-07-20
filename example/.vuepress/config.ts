@@ -34,7 +34,7 @@ export default defineUserConfig<DefaultThemeOptions>({
 
     docsDir: 'example',
 
-    codeTheme: 'light',
+    // codeTheme: 'light',
 
     locales: {
       /**
@@ -94,9 +94,7 @@ export default defineUserConfig<DefaultThemeOptions>({
   },
   plugins: [
     ['@vuepress/plugin-debug'],
-    // [
-    //   '@vuepress/plugin-search'
-    // ],
+    ['@vuepress/plugin-search'],
     [
       '@vuepress/plugin-register-components',
       {

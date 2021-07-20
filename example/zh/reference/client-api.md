@@ -130,7 +130,7 @@ export default defineClientAppSetup(() => {
 }
 ```
 
-### `__VERSION__`
+### __VERSION__
 
 - 类型： `string`
 
@@ -138,7 +138,7 @@ export default defineClientAppSetup(() => {
 
   VuePress Core 的版本号。
 
-### `__DEV__`
+### __DEV__
 
 - 类型： `boolean`
 
@@ -146,7 +146,7 @@ export default defineClientAppSetup(() => {
 
   一个环境标记，用于标识当前是否运行在 `dev` 模式下。
 
-### `__SSR__`
+### __SSR__
 
 - 类型： `boolean`
 
