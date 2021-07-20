@@ -1,0 +1,1 @@
+const e={key:"v-a951be94",path:"/reference/cli.html",title:"Command Line Interface",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:2,title:"dev",slug:"dev",children:[]},{level:2,title:"build",slug:"build",children:[]},{level:2,title:"info",slug:"info",children:[]}],filePathRelative:"reference/cli.md",git:{updatedTime:null,contributors:[]}};export{e as data};

@@ -1,0 +1,1 @@
+const e={key:"v-11b4a99a",path:"/zh/advanced/cookbook/extending-a-theme.html",title:"继承一个主题",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"继承默认主题",slug:"继承默认主题",children:[]},{level:2,title:"使你的主题可以被继承",slug:"使你的主题可以被继承",children:[]}],filePathRelative:"zh/advanced/cookbook/extending-a-theme.md",git:{updatedTime:null,contributors:[]}};export{e as data};

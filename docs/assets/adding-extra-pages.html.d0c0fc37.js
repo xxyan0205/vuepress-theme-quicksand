@@ -1,0 +1,1 @@
+const e={key:"v-5b617736",path:"/zh/advanced/cookbook/adding-extra-pages.html",title:"添加额外页面",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"添加默认的主页",slug:"添加默认的主页",children:[]}],filePathRelative:"zh/advanced/cookbook/adding-extra-pages.md",git:{updatedTime:null,contributors:[]}};export{e as data};

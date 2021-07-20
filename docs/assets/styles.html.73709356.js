@@ -1,0 +1,1 @@
+const e={key:"v-31e08608",path:"/reference/default-theme/styles.html",title:"Styles",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:2,title:"Palette File",slug:"palette-file",children:[]},{level:2,title:"Style File",slug:"style-file",children:[]}],filePathRelative:"reference/default-theme/styles.md",git:{updatedTime:null,contributors:[]}};export{e as data};

@@ -1,0 +1,1 @@
+const o={key:"v-03c9312a",path:"/advanced/cookbook/",title:"Introduction",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:2,title:"What's the Cookbook for?",slug:"what-s-the-cookbook-for",children:[]}],filePathRelative:"advanced/cookbook/README.md",git:{updatedTime:null,contributors:[]}};export{o as data};

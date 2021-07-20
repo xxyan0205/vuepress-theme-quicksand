@@ -1,0 +1,1 @@
+const e={key:"v-2a57b498",path:"/advanced/cookbook/adding-extra-pages.html",title:"Adding Extra Pages",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:2,title:"Add a Default Homepage",slug:"add-a-default-homepage",children:[]}],filePathRelative:"advanced/cookbook/adding-extra-pages.md",git:{updatedTime:null,contributors:[]}};export{e as data};

@@ -1,0 +1,1 @@
+const e={key:"v-4eaf9f84",path:"/guide/page.html",title:"Page",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:2,title:"Routing",slug:"routing",children:[]},{level:2,title:"Frontmatter",slug:"frontmatter",children:[]},{level:2,title:"Content",slug:"content",children:[]}],filePathRelative:"guide/page.md",git:{updatedTime:null,contributors:[]}};export{e as data};
