@@ -122,8 +122,8 @@ html, body
       position absolute
       top 0.5em
       left 0.5em
-      width var(--border-radius)
-      height var(--border-radius)
+      width calc(var(--border-radius)/1.5)
+      height calc(var(--border-radius)/1.5)
       border-radius var(--border-radius)
     &.tip::after
       background-color var(--c-tip)
@@ -143,15 +143,30 @@ html, body
       font-weight 600
   .code-group
     .code-group__nav
+      background-color var(--code-group-nav-bg-color)
       border-top-left-radius var(--border-radius)
       border-top-right-radius var(--border-radius)
+      .code-group__nav-tab
+        color var(--code-group-nav-color)
     div[class*="language-"]
       border-top-left-radius 0
       border-top-right-radius 0
+  
+.back-to-top
+  width 3rem
+  height 3rem
+  border-radius .6rem
+  background url(../assets/rocket.svg) center no-repeat
+  background-color rgba(47, 134, 246, 0.3)
+  background-size 2rem
+  mask none
+  transition background-color .3s
+  &:hover
+    background-color rgba(47, 134, 246, 0.6)
 
-  .DocSearch-Button
-    .DocSearch-Search-Icon
-        width 10px
+.DocSearch-Button
+  .DocSearch-Search-Icon
+      width 10px
 
 html.dark
   table

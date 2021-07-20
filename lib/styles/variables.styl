@@ -1,12 +1,14 @@
 :root, html.dark {
   --border-radius: 12px;
   --font-family-quicksand: Quicksand, var(--font-family);
-  --font-family-code: Source Code Pro, var(--font-family)
+  --font-family-code: JetBrains Mono, var(--font-family)
   --container-width: 1280px;
   --c-brand: #2f86f6;
   --c-brand-light: #2f86f6;
   --c-tip: var(--c-brand);
   --navbar-padding-h: 0;
+  --code-group-nav-color: #fff;
+  --code-group-nav-bg-color: #20303e;
   .theme-code-dark {
     --code-text-color: #f0f0f0;
     --code-brand-color: #00CCFF;
@@ -27,7 +29,9 @@
 }
 
 html.dark {
-  --code-bg-color: #20303e;
+  .theme-code-dark {
+    --code-bg-color: #20303e;
+  }
   .search-box {
     --search-bg-color: var(--c-bg)
   }
