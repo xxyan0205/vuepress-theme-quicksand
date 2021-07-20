@@ -1,6 +1,6 @@
 {
   "name": "vuepress-theme-quicksand",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "vuepress-theme",
   "keywords": [
     "vuepress-theme"
@@ -13,11 +13,17 @@
   "author": "Shawn Xu",
   "license": "MIT",
   "scripts": {
-    "docs:dev": "vuepress dev docs --clean-cache",
-    "docs:build": "vuepress build docs --clean-cache"
+    "docs:dev": "vuepress dev example --clean-cache",
+    "docs:build": "vuepress build example --clean-cache"
+  },
+  "dependencies": {
+    "@vuepress/client": "^2.0.0-beta.21",
+    "@vuepress/plugin-theme-data": "^2.0.0-beta.22"
   },
   "devDependencies": {
+    "@vuepress/plugin-debug": "^2.0.0-beta.22",
     "@vuepress/plugin-docsearch": "^2.0.0-beta.22",
+    "@vuepress/plugin-register-components": "^2.0.0-beta.22",
     "@vuepress/plugin-search": "^2.0.0-beta.22",
     "vuepress": "^2.0.0-beta.22",
     "vuepress-vite": "^2.0.0-beta.22"
