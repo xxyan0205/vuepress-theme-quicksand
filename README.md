@@ -1,8 +1,16 @@
 ## vuepress-theme-quicksand
 
-![vuepress-theme-quicksand](https://img.shields.io/npm/v/vuepress-theme-quicksand.svg?style=flat-square)
+![vuepress-theme-quicksand](https://img.shields.io/npm/v/vuepress-theme-quicksand.svg?style=flat-square) ![](https://img.shields.io/github/license/xxyan0205/vuepress-theme-quicksand?style=flat-square)
 
-> Suitable for vuepress v2
+> A niubility style theme for [VuePress v2.0](https://v2.vuepress.vuejs.org/)
+
+### Install
+
+```base
+npm i vuepress-theme-quicksand
+#or
+yarn add vuepress-theme-quicksand
+```
 
 ### Usage
 
@@ -36,15 +44,19 @@ module.exports = {
 
 * dark (default)
 
+````md
 ```javascript#dark
 console.log('dark theme')
 ```
+````
 
 * light
 
+````md
 ```javascript#light
 console.log('light theme')
 ```
+````
 
 #### Style variables
 
