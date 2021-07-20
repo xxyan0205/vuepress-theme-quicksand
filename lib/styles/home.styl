@@ -15,14 +15,22 @@
       width 40%
       max-height fit-content
       margin 0
+      padding 1.5rem
+      box-sizing border-box
       transform translateY(-50%)
     h1, h2, h3, p
       margin 1rem 0 !important
       text-align left
     .action-button
+      margin-top 1rem
       padding 0.6rem 1.8rem
       border-radius var(--border-radius)
+      box-shadow rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px
       transition background-color 0.3s ease
+      &:first-child
+        margin-right 1.5rem
+      &:not(:first-child)
+        margin-left 0
   .theme-default-content
     h1, h2, h3
       position relative
