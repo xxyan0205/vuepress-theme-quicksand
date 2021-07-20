@@ -1,1 +1,0 @@
-const e={key:"v-7a12fb77",path:"/zh/reference/plugin/shiki.html",title:"shiki",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"配置项",slug:"配置项",children:[{level:3,title:"theme",slug:"theme",children:[]},{level:3,title:"langs",slug:"langs",children:[]}]}],filePathRelative:"zh/reference/plugin/shiki.md",git:{updatedTime:null,contributors:[]}};export{e as data};

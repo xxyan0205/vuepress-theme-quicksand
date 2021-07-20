@@ -1,1 +1,0 @@
-const e={key:"v-b4ed4f1c",path:"/advanced/architecture.html",title:"Architecture",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:2,title:"Overview",slug:"overview",children:[]},{level:2,title:"Core Process and Hooks",slug:"core-process-and-hooks",children:[]}],filePathRelative:"advanced/architecture.md",git:{updatedTime:null,contributors:[]}};export{e as data};

@@ -1,1 +1,0 @@
-const e={key:"v-2100bd79",path:"/zh/reference/default-theme/styles.html",title:"样式",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"Palette 文件",slug:"palette-文件",children:[]},{level:2,title:"Style 文件",slug:"style-文件",children:[]}],filePathRelative:"zh/reference/default-theme/styles.md",git:{updatedTime:null,contributors:[]}};export{e as data};

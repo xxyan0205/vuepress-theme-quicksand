@@ -1,0 +1,1 @@
+const e={key:"v-6474e88f",path:"/reference/plugin/back-to-top.html",title:"back-to-top",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:2,title:"Styles",slug:"styles",children:[]}],filePathRelative:"reference/plugin/back-to-top.md",git:{updatedTime:1626765764e3,contributors:[{name:"xuxiaoyan",email:"xuxiaoyan@didiglobal.com",commits:1}]}};export{e as data};

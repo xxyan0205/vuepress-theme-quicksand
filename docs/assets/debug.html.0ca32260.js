@@ -1,0 +1,1 @@
+const e={key:"v-687d8b36",path:"/reference/plugin/debug.html",title:"debug",lang:"en-US",frontmatter:{},excerpt:"",headers:[],filePathRelative:"reference/plugin/debug.md",git:{updatedTime:1626765764e3,contributors:[{name:"xuxiaoyan",email:"xuxiaoyan@didiglobal.com",commits:1}]}};export{e as data};

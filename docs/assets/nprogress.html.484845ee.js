@@ -1,0 +1,1 @@
+const e={key:"v-46d4f19d",path:"/reference/plugin/nprogress.html",title:"nprogress",lang:"en-US",frontmatter:{title:"nprogress"},excerpt:"",headers:[{level:2,title:"Styles",slug:"styles",children:[]}],filePathRelative:"reference/plugin/nprogress.md",git:{updatedTime:1626765764e3,contributors:[{name:"xuxiaoyan",email:"xuxiaoyan@didiglobal.com",commits:1}]}};export{e as data};

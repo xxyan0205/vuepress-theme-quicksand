@@ -26,7 +26,7 @@ export default defineUserConfig<DefaultThemeOptions>({
   themeConfig: {
     // logo: '/images/logo.png',
 
-    repo: 'vuepress/vuepress-next',
+    repo: 'xxyan0205/vuepress-theme-quicksand',
 
     docsDir: 'example',
 

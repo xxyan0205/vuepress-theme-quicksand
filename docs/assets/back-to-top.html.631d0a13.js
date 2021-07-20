@@ -1,1 +1,0 @@
-const e={key:"v-6474e88f",path:"/reference/plugin/back-to-top.html",title:"back-to-top",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:2,title:"Styles",slug:"styles",children:[]}],filePathRelative:"reference/plugin/back-to-top.md",git:{updatedTime:null,contributors:[]}};export{e as data};

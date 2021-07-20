@@ -1,0 +1,1 @@
+const a={key:"v-63e02eaa",path:"/zh/advanced/cookbook/markdown-and-vue-sfc.html",title:"Markdown 与 Vue SFC",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],filePathRelative:"zh/advanced/cookbook/markdown-and-vue-sfc.md",git:{updatedTime:1626765764e3,contributors:[{name:"xuxiaoyan",email:"xuxiaoyan@didiglobal.com",commits:1}]}};export{a as data};

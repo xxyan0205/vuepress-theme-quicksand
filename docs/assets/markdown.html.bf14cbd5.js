@@ -1,1 +1,0 @@
-const e={key:"v-176c9c4a",path:"/reference/default-theme/markdown.html",title:"Markdown",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:2,title:"Custom Containers",slug:"custom-containers",children:[]}],filePathRelative:"reference/default-theme/markdown.md",git:{updatedTime:null,contributors:[]}};export{e as data};

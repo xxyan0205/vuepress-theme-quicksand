@@ -1,1 +1,0 @@
-const e={key:"v-bb2079f4",path:"/reference/plugin/shiki.html",title:"shiki",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:2,title:"Options",slug:"options",children:[{level:3,title:"theme",slug:"theme",children:[]},{level:3,title:"langs",slug:"langs",children:[]}]}],filePathRelative:"reference/plugin/shiki.md",git:{updatedTime:null,contributors:[]}};export{e as data};
